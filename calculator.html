@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="rain">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+    </div>
+    
+    <div class="calculator">
+        <input type="text" class="calculator-screen" id="screen" disabled placeholder="0">
+        <div class="calculator-keys">
+            <button class="key" data-action="clear">C</button>
+            <button class="key" data-action="delete">DEL</button>
+            <button class="key operator" data-action="operator" value="/">÷</button>
+            <button class="key operator" data-action="operator" value="*">×</button>
+            <button class="key" value="7">7</button>
+            <button class="key" value="8">8</button>
+            <button class="key" value="9">9</button>
+            <button class="key operator" data-action="operator" value="-">−</button>
+            <button class="key" value="4">4</button>
+            <button class="key" value="5">5</button>
+            <button class="key" value="6">6</button>
+            <button class="key operator" data-action="operator" value="+">+</button>
+            <button class="key" value="1">1</button>
+            <button class="key" value="2">2</button>
+            <button class="key" value="3">3</button>
+            <button class="key" data-action="decimal">.</button>
+            <button class="key" value="(">(</button>
+            <button class="key" value="0">0</button>
+            <button class="key" value=")">)</button>
+            <button class="key operator" data-action="operator" value="sqrt">√</button> 
+            <button class="key operator" data-action="operator" value="sin">sin</button>
+            <button class="key operator" data-action="operator" value="cos">cos</button>
+            <button class="key operator" data-action="operator" value="tan">tan</button>
+            <button class="key" data-action="toggle-sign">±</button>
+            <button class="key equal-sign" data-action="calculate">=</button>
+            <button class="key operator" data-action="operator" value="^">^</button> 
+            <button class="key operator" data-action="operator" value="log">log</button> 
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
